@@ -1,0 +1,127 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    display: flex;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    width: 95px;
+    background-color: #1d2531;
+    height: 100%;
+}
+.nav-item{
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.nav-button{
+    width: 90px;
+    position: absolute;
+    bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.menu{
+    width: 250px;
+    background-color: #222c3c;
+}
+.messages{
+    width: calc(100% - 245px);
+}
+ul{
+    list-style-type: none;
+    color: #aaa;
+    font-size: 0.8em;
+    line-height: 2.2em;
+    padding-top: 1em;
+    padding-left: 1.2em;
+    margin-bottom: 1.4em;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: #221c3c;
+}
+.menu-p{
+    font-size: 0.8em;
+    color: #666;
+    padding-top: 1em;
+    padding-left: 1.2em;
+}
+.menu-setting{
+    float: right;
+    margin-top: 1em;
+    margin-right: 1.2em;
+}
+.menu-54{
+    color: white;
+    width: 32px;
+    height: 24px;
+    text-align: center;
+    padding-top: 2px;
+    background-image: url("images/Base blue.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 4.5em;
+    left: 270px;
+}
+#books{
+    list-style-position: inside;
+    list-style-image: url("images/Book of Wisdom.png");
+}
+#tutorials{
+    list-style-position: inside;
+    list-style-image: url("images/Video Camera.png");
+}
+#stocks{
+    list-style-position: inside;
+    list-style-image: url("images/Painting.png");
+}
+#infor{
+    list-style-position: inside;
+    list-style-image: url("images/Chart.png");
+}
+.menu-goals{
+    color: #aaaaaa;
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+    font-size: 0.8em;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.menu-line{
+    display: flex;
+    margin-top: 10px;
+}
+.line-left{
+    height: 3px;
+    width: 50px;
+    background-color: indigo;
+}
+.line-right{
+    height: 3px;
+    width: 150px;
+    background-color: #666666;
+}
+.m-first{
+    /*background-color: orange;*/
+    width: 100%;
+    height: 60px;
+    border-bottom-color: #aaaaaa;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+h2{
+    font-weight: 400;
+    padding-top: 10px;
+    padding-left: 15px;
+}
